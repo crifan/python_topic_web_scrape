@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE chapter [
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" "http://www.crifan.com/files/res/docbook/entity/crl.ent">
+%crl_ent;
+
+]>
+
+<chapter xml:id="python_network_process" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xl="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+         xmlns:ns4="http://www.w3.org/1999/xhtml"
+         xmlns:ns3="http://www.w3.org/2000/svg"
+         xmlns:ns="http://docbook.org/ns/docbook">
+<title>Python中的网络处理</title>
+
+<para></para>
+<para>主要涉及的一些，和网络处理方面有关的模块是，urllib，urllib2等</para>
+
+<tip xml:id="tip.python_network_process"><title>相关旧帖</title>
+    <para><link xl:href="http://www.crifan.com/python_http_package_parser_lib_module">【整理】Python中用于解析Http数据包的模块/库</link></para>
+    <para><link xl:href="http://www.crifan.com/python_cookiejar_filecookiejar_save_error_notimplementederror">【已解决】Python中使用cookielib的FileCookieJar去save()，结果出错：NotImplementedError</link></para>
+    <para><link xl:href="http://www.crifan.com/python_auto_handle_cookie_and_save_to_from_cookie_file">【整理】Python中Cookie的处理：自动处理Cookie，保存为Cookie文件，从文件载入Cookie</link></para>
+</tip>
+
+<para>TODO：整理对应的，带urllib和urllib2方面的帖子进来。</para>
+</chapter>

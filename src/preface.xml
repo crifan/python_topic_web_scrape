@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE preface>
+
+<preface xml:id="preface" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xl="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+         xmlns:ns4="http://www.w3.org/1999/xhtml"
+         xmlns:ns3="http://www.w3.org/2000/svg"
+         xmlns:ns="http://docbook.org/ns/docbook">
+<title>前言</title>
+
+<sect1 xml:id="purpose"><title>本文目的</title>
+    <para>本文目的在于，在已经了解了抓取网站，模拟登陆，抓取动态网页方面的逻辑后，如何用Python语言去实现这部分的逻辑。</para>
+</sect1>
+
+<sect1 xml:id="prerequisite"><title>前提</title>
+    <para>讨论如何用Python去实现，网站抓取，模拟登陆，抓取动态网页的话，前提是你需要对这部分的逻辑已经比较清楚了。</para>
+    <para>如果不清楚，请先去参考：</para>
+    <para><link xl:href="http://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html">详解抓取网站，模拟登陆，抓取动态网页的原理和实现（Python，C#等）</link></para>
+</sect1>
+
+</preface>

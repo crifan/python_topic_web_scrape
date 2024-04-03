@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<bibliography
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="reference">
+
+<bibliomixed xml:id="ref.python_crawl_website">
+  <bibliosource><link xl:href="http://www.crifan.com/crawl_website_html_and_extract_info_using_python/">【教程】抓取网并提取网页中所需要的信息 之 Python版</link></bibliosource>
+  <author>Crifan Li</author>
+</bibliomixed>
+
+</bibliography>

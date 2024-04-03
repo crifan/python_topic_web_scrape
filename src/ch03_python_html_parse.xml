@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE chapter [
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" "http://www.crifan.com/files/res/docbook/entity/crl.ent">
+%crl_ent;
+
+]>
+
+<chapter xml:id="python_html_parse" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xl="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+         xmlns:ns4="http://www.w3.org/1999/xhtml"
+         xmlns:ns3="http://www.w3.org/2000/svg"
+         xmlns:ns="http://docbook.org/ns/docbook">
+<title>Python中的HTMl解析</title>
+
+<para></para>
+
+<tip xml:id="tip.python_html_parse"><title>相关旧帖</title>
+    <para><link xl:href="http://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html#python_lib_beautifulsoup">BeautifulSoup模块简介</link></para>
+
+    <para><link xl:href="http://www.crifan.com/python_third_party_lib_html_parser_beautifulsoup">【教程】Python中第三方的用于解析HTML的库：BeautifulSoup</link></para>
+    <para><link xl:href="http://www.crifan.com/summary_usage_of_beautifulsoup_in_python">【总结】Python的第三方库BeautifulSoup的使用心得</link></para>
+    <para><link xl:href="http://www.crifan.com/some_notation_about_python_beautifulsoup_parse_html">【整理】关于Python中的html处理库函数BeautifulSoup使用注意事项</link></para>
+
+    <para><link xl:href="http://www.crifan.com/use_beautifulsoup_parse_the_backslash_style_html_json_string">【已解决】用BeautifulSoup解析Html格式的Json字符串</link></para>
+    <para><link xl:href="http://www.crifan.com/notation_about_use_python_json_loads">【经验记录】Python中json.loads的时候出错->要注意要解码的Json字符的编码</link></para>
+    <para><link xl:href="http://www.crifan.com/use_python_json_loads_parse_string_contain_newline_will_fail_error">【已解决】Python中json.loads解析包含\n的字符串会出错</link></para>
+    <para><link xl:href="http://www.crifan.com/python_json_loads_valueerror_expecting_property_name_line_1_column_1_char_1">【已解决】Python中使用json.loads解码字符串时出错：ValueError: Expecting property name: line 1 column 1 (char 1)</link></para>
+    <para><link xl:href="http://www.crifan.com/python_json_loads_valueerror_no_json_object_could_be_decoded">【已解决】Python中用json.loads解码字符串出错：ValueError: No JSON object could be decoded</link></para>
+</tip>
+
+<para>Python中和解析抓取的网站内容，即解析HTML，JSON等方面，相关的模块有，BeautifulSoup，json等</para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+
+</chapter>

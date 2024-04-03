@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE book
+[
+
+<!ENTITY cur_book_name      "python_topic_web_scrape" >
+<!ENTITY publish_date       "2013-02-06" >
+<!ENTITY release_version    "1.0" >
+
+<!ENTITY copyrith_year "2013" >
+<!ENTITY entity_common_multi_format     SYSTEM  "../../entity_common_multi_format.xml">
+<!ENTITY entity_common_publish_info     SYSTEM  "../../entity_common_publish_info.xml">
+]>
+
+<book version="5.0"
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:lang="zh_CN">
+
+<info>
+    <title>Python专题教程：抓取网站，模拟登陆，抓取动态网页</title>
+    <subtitle></subtitle>
+    <keywordset>
+        <keyword>Python</keyword>
+        <keyword>专题教程</keyword>
+        <keyword>抓取网站</keyword>
+        <keyword>模拟登陆</keyword>
+        <keyword>抓取动态网页</keyword>
+    </keywordset>
+
+    <abstract>
+        <para>本文是针对Python的中级开发人员，介绍如何用Python语言去实现抓取网站，模拟登陆，抓取动态网页。其中主要涉及到，网络处理方面的模块（urllib，urllib2等），以及HTML解析相关的模块（BeautifulSoup，json等）。</para>
+        &entity_common_multi_format;
+    </abstract>
+
+    <revhistory>
+        <revision>
+            <revnumber>&release_version;</revnumber>
+            <date>&publish_date;</date>
+            <revremark>
+                <orderedlist>
+                    <listitem>把之前教程的地址整理过来</listitem>
+                </orderedlist>
+            </revremark>
+            <authorinitials>crl</authorinitials>
+        </revision>
+    </revhistory>
+
+    &entity_common_publish_info;
+</info>
+
+<xi:include href="preface.xml" />
+<xi:include href="ch01_python_web_scrape.xml" />
+<xi:include href="ch02_python_network_process.xml" />
+<xi:include href="ch03_python_html_parse.xml" />
+<xi:include href="reference.xml" />
+
+</book>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE chapter [
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" "http://www.crifan.com/files/res/docbook/entity/crl.ent">
+%crl_ent;
+
+]>
+
+<chapter    xml:id="python_web_scrape"
+            xmlns="http://docbook.org/ns/docbook"
+            xmlns:xl="http://www.w3.org/1999/xlink"
+            xmlns:xi="http://www.w3.org/2001/XInclude"
+            xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+            xmlns:ns4="http://www.w3.org/1999/xhtml"
+            xmlns:ns3="http://www.w3.org/2000/svg"
+            xmlns:ns="http://docbook.org/ns/docbook">
+<title>如何用Python实现网站抓取，模拟登陆，抓取动态网页</title>
+
+<para></para>
+
+<tip xml:id="tip.python_web_scrape"><title>相关旧帖</title>
+    <para><link xl:href="http://www.crifan.com/crawl_website_html_and_extract_info_using_python/">【教程】抓取网并提取网页中所需要的信息 之 Python版</link></para>
+    <para><link xl:href="http://www.crifan.com/emulate_login_website_using_python/">【教程】模拟登陆网站 之 Python版（内含两种版本的完整的可运行的代码）</link></para>
+</tip>
+
+<para>其实，对于urllib等库，已经做得够好了，尤其是易用性上，已经很方便使用了。</para>
+<para>比如，直接可以通过如下代码，即可获得从网页的地址，而得到其网页的源代码了</para>
+<para>TODO：add code</para>
+<para>但是呢，由于实际上，和网页抓取，网页模拟登陆等方面，需要用到cookie，以及其他header参数，导致想要获得一个，功能强大且好用的，用于网络抓取方面的函数，则还是需要额外花很多功夫的</para>
+<para>而我后来就是在折腾网络抓取方面，前前后后，经过实际使用而积累出来很多这方面的经验，最终，写了个相关的，功能更加强大一些，更加方便使用的函数的。主要是2个函数：</para>
+<para>getUrlResponse和getUrlRespHtml</para>
+<para>TODO：添加两个函数来自crifanLib的解释</para>
+<para>TODO：再添加这两个函数的几种用法</para>
+<para>TODO：再添加另外几个相关的函数的解释，包括downloadFile等函数</para>
+<para></para>
+<para></para>
+<para>其实主要分两大方面：</para>
+<para>一方面是把网站的内容抓取下来，涉及到和网络处理方面的模块</para>
+<para>另外一方面是如何解析抓取下来的内容，即涉及到HTML解析等方面的模块</para>
+<para>下面就来解释这两大方面相关的逻辑，以及如何用Python实现对应的这部分的功能。</para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+</chapter>
